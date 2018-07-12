@@ -6,7 +6,7 @@ import App from './app.vue';
 
 new Vue({
     //渲染内容的目的地
-    el:'#app',
+    el:'#app',  
     //渲染内容
     render:function(c){ //c只是一个形参，叫什么都可以
         return c(App);
